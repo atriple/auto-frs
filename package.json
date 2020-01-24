@@ -1,0 +1,26 @@
+{
+  "name": "auto-frs",
+  "version": "1.0.0",
+  "description": "Melakukan pengambilan kelas ITS dengan puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atriple/auto-frs.git"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "atriple",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atriple/auto-frs/issues"
+  },
+  "homepage": "https://github.com/atriple/auto-frs#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^2.0.0"
+  }
+}
