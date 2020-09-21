@@ -1,6 +1,6 @@
 {
   "name": "auto-frs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Melakukan pengambilan kelas ITS dengan puppeteer",
   "main": "index.js",
   "scripts": {
