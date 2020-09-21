@@ -4,6 +4,12 @@
   "description": "Melakukan pengambilan kelas ITS dengan puppeteer",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "start:nodemon": "nodemon -x \"node index.js || touch hello.js\"",
+    "start:frvr": "forever start ./index.js",
+    "stop": "forever stopall",
+    "log": "forever logs -f",
+    "list": "forever list",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +28,9 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "forever": "^3.0.2",
+    "nodemon": "^2.0.4"
   }
 }
