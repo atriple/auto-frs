@@ -27,7 +27,7 @@ I can't guarantee that this script will be future proof.
 
    Make sure to type your NRP and password correctly, this program doesn't handle incorrect input that it will loop until you cancel the command.
 
-3. Input the course at `COURSE_LIST` variable in `index.js` (I will make it more "elegant" to do with config file if I have time).
+3. Input the course at `COURSE_LIST` variable in `index.js` (I will make it more "elegant" to do with config file if I have time in later version).
 
    The format is the string value that you can find in `<option value="...">`. Example : `"KM4723|_|2018|12100|0|1|"`
 
@@ -48,8 +48,9 @@ Use `npm run log` if you want to stream the output. You can show it to console u
 ### Suggestion
 
 - Keep it secret to your friends, if you want to keep it easy.
-- Consider to insert courses as few as possible if you want to increase the probability finding the course
-  - This script really good to monitor currently full class (that usually due to high demand). Consider prioritizing this kind of courses instead of course that guaranteed available.
+  - Or just battle with them by random chance
+- Consider to insert courses as few as possible to make it iterate more faster, if you want to increase the probability finding the course.
+  - This script really good to monitor currently full class (usually due to high demand). Consider prioritizing this kind of courses instead of course that guaranteed available.
 
 ## Contributing
 
