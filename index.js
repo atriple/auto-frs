@@ -8,7 +8,7 @@ You can change this value
 */
 
 // Use map to symbolize the code values
-// You can find the value of course that you like in <option value=... />
+// You can find the value that you like in <option value=... /> of dropdown menu
 const mk = {
   pcd: "KM4723|_|2018|12100|0|1|",
   dataMining: "KM4725|_|2018|12100|0|1|",

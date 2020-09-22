@@ -2,6 +2,7 @@ Warning :
 
 - Since I use puppeteer, this will install Chromium with the size of >100 Mb to the node_modules.
 - This script only handle your department courses
+- Sorry if it's quite messy, since I'm in rush when making this.
 
 ---
 
