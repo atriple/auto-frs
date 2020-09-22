@@ -43,11 +43,8 @@ async function pickClass() {
     await page.keyboard.down("Tab");
     await page.keyboard.type(process.env.PASSWORD);
 
-    //await page.screenshot({ path: './log/01-form-filled.png' })
-
     await page.click("#login_form > div:nth-child(3) > button");
     await page.waitForNavigation({ waitUntil: "domcontentloaded" });
-    //await page.screenshot({ path: './log/02-after-login.png'})
 
     //Log cookies
     const cookies = await page.cookies();
@@ -62,9 +59,8 @@ async function pickClass() {
       waitUntil: "networkidle2",
     });
 
-    //Remove annoying modal (only for 2019/2020 Genap case)
+    //Remove annoying modal (happens at 2019/2020 Genap case)
     // await page.click('body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons > div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix > div > button > span')
-    // await page.screenshot({ path: './log/03-frs.png'})
 
     while (true) {
       for (const courses of COURSE_LIST) {
