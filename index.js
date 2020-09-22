@@ -16,8 +16,8 @@ const mk = {
   sbd: "KM4722|_|2018|12100|0|1|",
 };
 
-const COURSE_LIST = [mk.dataMining, mk.ai];
-const DELAY_DURATION = 1250;
+const COURSE_LIST = [mk.ai];
+const DELAY_DURATION = 2000;
 
 /////////////////////////////////////////
 
