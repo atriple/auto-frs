@@ -2,13 +2,13 @@ Warning :
 
 - Since I use puppeteer, this will install Chromium with the size of >100 Mb to the node_modules.
 - This script can only handle your department courses
-- Not the best tool in the shed, but it's do the job
+- Not the best tool in the shed, but it's does the job
 
 ---
 
 # Auto FRS
 
-This script helps you to automate the process of "FRS-war", run `npm start` and all you need to do is sit down, drink a tea, relax or do something else... 🍵
+This script helps you to automate the process of "FRS-war" at [ITS](https://www.its.ac.id/), run `npm start` and all you need to do is sit down, drink a tea, relax or do something else... 🍵
 
 ## Working version
 
