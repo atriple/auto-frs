@@ -2,7 +2,6 @@ Warning :
 
 - Since I use puppeteer, this will install Chromium with the size of >100 Mb to the node_modules.
 - This script only handle your department courses
-- Sorry if it's quite messy, since I'm in rush when making this.
 
 ---
 
@@ -51,11 +50,11 @@ Use `npm run log` if you want to stream the output. You can show it to console u
 - Keep it secret to your friends, if you want to keep it easy.
   - Or just battle with them by random chance
 - Consider to insert courses as few as possible to make it iterate more faster, if you want to increase the probability finding the course.
-  - This script really good to monitor currently full class (usually due to high demand). Consider prioritizing this kind of courses instead of course that guaranteed available.
+- This script really good to monitor currently full & in demand courses. Consider prioritizing this kind of courses instead of one that guaranteed available.
 
 ## Contributing
 
-Feel free to fork it, update it, lick it or whatever you like to do with it.
+Feel free to fork it, update it, or whatever you like to do with it.
 
 ## Disclaimer
 
@@ -64,4 +63,4 @@ Feel free to fork it, update it, lick it or whatever you like to do with it.
 
 ## License
 
-MIT
+MIT, made by atriple
