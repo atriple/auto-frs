@@ -1,8 +1,8 @@
 Warning :
 
 - Since I use puppeteer, this will install Chromium with the size of >100 Mb to the node_modules.
-- This script can only handle your department courses
-- Not the best tool in the shed, but it's does the job
+- This script can only handle your department courses.
+- Not the best tool in the shed, but it does the job.
 
 ---
 
